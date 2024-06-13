@@ -1,9 +1,8 @@
 body{
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif sans-serif;    
     font-size: 1rem;
     background-color: rgb(139, 121, 17);
 }
-
 
 .logos{
     display: flex;
@@ -21,6 +20,7 @@ ul{
     justify-content:space-evenly;
     
 }
+
 li a{
     display: inline;
     padding: 11px;
@@ -113,13 +113,8 @@ article{
 
 
 
-#fecha{
-    text-align: right;
-}
-.imgp1t1{
-    text-align: center;
-    padding-right: 15px;
-}
+
+
 
 
 h1{
@@ -131,6 +126,7 @@ link{
 footer{
     background-color: rgb(124, 25, 25);
 }
+
 .stick{
     display:run-in;
     background-color: gray;

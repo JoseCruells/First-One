@@ -6,9 +6,9 @@ body {
 .stick {
   text-decoration: none;
   display: run-in;
-  width: 45px;
-  height: 20px;
-  margin: 5px 50px;
+  width: 0.5%;
+  height: 0.5%;
+  margin: 0.5% 0.5%;
   position: sticky;
   top: 0%;
   list-style: none;
@@ -20,7 +20,7 @@ body {
 .stick li a {
   display: run-in;
   position: sticky;
-  padding: 10px;
+  padding: 10%;
   color: black;
   text-decoration: none;
   background-color: rgb(30, 26, 68);
@@ -34,7 +34,8 @@ body {
   justify-content: space-between;
   background: rgb(93, 1, 1);
   background: linear-gradient(90deg, rgb(93, 1, 1) 0%, rgb(122, 29, 29) 35%, rgb(203, 87, 87) 100%);
-  height: 90px;
+  height: 100px;
+  box-sizing: border-box;
 }
 .logos img {
   transition: transform 0.3s ease;
@@ -62,7 +63,7 @@ body {
   display: flex;
   flex-flow: column nowrap;
   background-image: url(../galeria/montego\ \(2\).jpg);
-  height: 1000px;
+  height: 1000%;
   text-align: center;
   color: rgb(0, 0, 0);
 }
@@ -70,10 +71,10 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  height: 400px;
+  height: 50%;
 }
 .main img {
-  height: 400px;
+  height: 50%;
 }
 
 form {
@@ -86,7 +87,7 @@ main {
   background-image: url(../galeria/montego\ \(2\).jpg);
 }
 main h3 {
-  width: 200px;
+  width: 10%;
 }
 
 .products {
@@ -101,8 +102,8 @@ main h3 {
   overflow: scroll;
 }
 .products img {
-  width: 230px;
-  height: 300px;
+  width: 15%;
+  height: 15%;
 }
 .products li a {
   list-style: none;
@@ -122,8 +123,8 @@ main h3 {
   justify-content: space-between;
 }
 .autor img {
-  width: 300px;
-  height: 300px;
+  width: 15%;
+  height: 15%;
 }
 
 .about {
@@ -132,9 +133,9 @@ main h3 {
   align-items: center;
 }
 .about img {
-  height: 300px;
-  width: 400px;
-  margin-bottom: 10px;
+  height: 30%;
+  width: 30%;
+  margin-bottom: 1%;
 }
 
 .Next-Project {
@@ -158,8 +159,8 @@ footer {
 }
 footer img {
   display: inline-flex;
-  width: 50px;
-  height: 50px;
+  width: 5%;
+  height: 5%;
 }
 
 link {

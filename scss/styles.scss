@@ -1,6 +1,7 @@
 body{
     font-family:'Times New Roman', Times, serif; 
     font-size: 1rem;
+    color:rgb(76, 0, 255)
 
 }
 .stick{
@@ -94,6 +95,7 @@ main{
 .products{
     display: flex;
     flex-flow: row nowrap;
+    }
     h2{
         display: flex;
         font-size: 1em;
@@ -116,7 +118,6 @@ main{
             padding: 0,1em;
         }
     }
-}
 .autor{
     display: flex;
     flex-flow: row;
@@ -172,3 +173,32 @@ link{
     color: bisque;
 }
 
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
+    border-right: 2px solid #ddd;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}

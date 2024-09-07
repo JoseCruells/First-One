@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Promise of Blood",
+        "link": "https://www.amazon.com/Promise-of-Blood-Brian-McClellan-audiobook/dp/B00C2DMZVK",
+        "price": 15.99
+    },
+    {
+        "name": "The Crimson Campaign",
+        "link": "https://www.amazon.com/The-Crimson-Campaign",
+        "price": 12.99
+    },
+    {
+        "name": "The Autumn Republic",
+        "link": "https://www.amazon.com/The-Autumn-Republic-audiobook/dp/B00SRRJA2M",
+        "price": 14.99
+    }
+]
